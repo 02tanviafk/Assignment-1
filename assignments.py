@@ -66,4 +66,25 @@ except ValueError:
     
     
 #ASSIGNMENT 4
-s
+import numpy as np
+A=np.array([[1,2],
+           [3,4]])
+B=np.array([[5,6],
+           [7,8]])
+c=A+B
+print("Matrix A: ")
+print(A)
+print("Matrix B: ")
+print(B)
+print("Addition of two matrices: ", c)
+
+
+#assignment 5
+
+import re
+string=input("enter a string:")
+if re.fullmatch(r'[a-zA-Z0-9]+' , string):
+    print("string contains a-z A-Z 0-9")
+
+else:
+    print("string contains other characters")
